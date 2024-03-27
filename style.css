@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cont {
+  width: 100vw;
+  background-color: #dadada;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.para {
+  padding: 10vw 17vw;
+}
+.para input {
+  outline-color: royalblue;
+  border-radius: 10px;
+  border: 1px solid #dadada;
+  font-weight: 400;
+  font-size: 30px;
+  padding: 12px 22px;
+  width: 100%;
+}
+.people {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.person {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+.img {
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  width: 7vw;
+  height: 7vw;
+  overflow: hidden;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
